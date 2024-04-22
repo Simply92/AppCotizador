@@ -1,4 +1,4 @@
-
+import { currencies } from "../data"
 
 const CriptoSearch = () => {
     return (
@@ -7,6 +7,9 @@ const CriptoSearch = () => {
                 <label htmlFor="currency">Moneda:</label>
                 <select name="currency" id="currency">
                     <option value="">-- Seleccione --</option>
+                    {currencies.map(currency => (
+                        <option key={currency.code} value={currency.code}>{currency.name}</option>
+                    ))}
                 </select>
             </div>
 
