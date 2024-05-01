@@ -10,7 +10,7 @@ function App() {
     fetchCryptos()
   }, [])
   return (
-    <div className="todo">
+    <>
       <div className="container">
         <h1 className="app-title">
           Cotizador de <span>Criptomonedas</span>
@@ -20,7 +20,7 @@ function App() {
           <CryptoPriceDisplay />
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

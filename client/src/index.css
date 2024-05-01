@@ -7,15 +7,13 @@ html{
   font-size: 62.5%;
 }
 body{
-  font-family: "Outfit", sans-serif;
-  font-size: 2rem;
-}
-.todo{
   background-image: url('./bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 110vh;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  font-size: 2rem;
 }
 .container{
   max-width: 60rem;
